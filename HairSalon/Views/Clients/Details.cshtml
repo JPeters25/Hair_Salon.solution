@@ -2,14 +2,23 @@
   Layout = "_Layout";
 }
 
-@model HairSalon.Models.Client
+@model HairSalon.Models.Client;
 
-<h2>Client Details</h2>
-<hr />
-<h3>Name: @Html.DisplayFor(model => model.ClientName)</h3>
-<h3>Phone Number: @Html.DisplayFor(model => model.ClientPhone)</h3>
+<div id=Header>
+  <h1 id= HeaderText><img src='/img/logo.png' width="70px" /> Welcome to Eau Claire's Salon <img src='/img/logo.png' width="70px" /> </h1>
+</div>
 
-<p>@Html.ActionLink("Edit Client", "Edit", new { id = Model.ClientId })</p>
-<p>@Html.ActionLink("Delete Client", "Delete", new { id = Model.ClientId })</p>
-<p>@Html.ActionLink("Back to list", "Index")</p>
-<p>@Html.ActionLink("Home", "Index", "Home")</p>
+<div id=Nav>
+  <p>@Html.ActionLink("Back to list", "Index")</p>
+  <p>@Html.ActionLink("Home", "Index", "Home")</p>
+  <img src='/img/logo.png' width="70px" />
+</div>
+<div id=Details>
+  <h2>Client Details</h2>
+  <hr />
+    <h3>Name: @Html.DisplayFor(model => model.ClientName)</h3>
+    <h3>Phone Number: @Html.DisplayFor(model => model.ClientPhone)</h3>
+
+    <p>@Html.ActionLink("Edit Client", "Edit", new { id = Model.ClientId })</p>
+    <p>@Html.ActionLink("Delete Client", "Delete", new { id = Model.ClientId })</p>
+</div>

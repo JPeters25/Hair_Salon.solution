@@ -3,15 +3,19 @@
 }
 
 @using HairSalon.Models;
+
 <div id=Header>
-<h1 id= HeaderText>Eau Claire's Salon</h1>
+  <h1 id= HeaderText><img src='/img/logo.png' width="70px" /> Welcome to Eau Claire's Salon <img src='/img/logo.png' width="70px" /> </h1>  
 </div>
+
 <div id=Nav>
   <div id=NavLinks>
   <p>@Html.ActionLink("Add new Stylist", "Create")</p>
   <p>@Html.ActionLink("Home", "Index", "Home")</p>
+  <img src='/img/logo.png' width="70px" />
   </div>
 </div>
+
 <div id=StylistList>
   <h2 id=HeaderText>Stylists</h2>
   @if (@Model.Count == 0)
