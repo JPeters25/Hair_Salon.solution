@@ -7,3 +7,132 @@ div#footer {
 	background:#333;
 	padding:8px;
 }
+
+body {
+  background-image:url('/img/salon.jpg');
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+#Nav{
+  background-color: black;
+  float:left;
+  padding: 15px 15px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Facebook Letter Faces';
+  box-shadow: 5px 5px 5px 5px #777;
+  margin-top: 0%;
+  margin-bottom: 0;
+  height: 1080px;
+}
+
+
+
+#HomeLinks{
+  font-size: 24px;
+  width:600px;
+  text-align: center;
+  margin-left:33%;
+  border-image: solid black;
+  border-width: 5px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+#Header {
+  background-color: black;
+  padding-top: 10px;
+  text-align: center; 
+  height: 75px;
+  margin-bottom: 0%;
+}
+
+#HeaderText {
+  text-align: center;
+  padding-bottom: 20px;
+  color: black;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f09,
+    0 0 82px #f09,
+    0 0 92px #f09,
+    0 0 102px #f09,
+    0 0 151px #f09;
+
+}
+
+#StylistList {
+  background-color: black;
+  color:#f09;
+  float:left;
+  font-size: 24px;
+  box-shadow: 2px 2px 2px 2px #f09;
+  width: 50%;
+  margin-left: 300px;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#NavLinks {
+  text-align: left;
+}
+
+#form {
+  color:white;
+  font-weight: bold;
+  background-color: black;
+  float: left;
+  font-size: 24;
+  box-shadow: 2px 2px 2px 2px #f09;
+  width: 50%;
+  margin-top: 100px;
+  margin-left:300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#details {
+  color:white;
+  font-weight: bold;
+  background-color: black;
+  float: left;
+  font-size: 24;
+  box-shadow: 2px 2px 2px 2px #f09;
+  width: 50%;
+  margin-top: 100px;
+  margin-left:300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#Edit {
+  color:white;
+  font-weight: bold;
+  background-color: black;
+  float: left;
+  font-size: 24;
+  box-shadow: 2px 2px 2px 2px #f09;
+  width: 50%;
+  margin-top: 100px;
+  margin-left:300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#EditName{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
