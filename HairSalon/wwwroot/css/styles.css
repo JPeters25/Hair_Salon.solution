@@ -25,6 +25,7 @@ body {
   margin-top: 0%;
   margin-bottom: 0;
   height: 1080px;
+  
 }
 
 
@@ -40,6 +41,7 @@ body {
   position: absolute;
   background-color: black;
   box-shadow: 2px 2px 2px 2px #f09;
+  border-radius: 100px;
 
 }
 
@@ -73,8 +75,8 @@ body {
   float:left;
   font-size: 24px;
   box-shadow: 2px 2px 2px 2px #f09;
-  width: 50%;
-  margin-left: 300px;
+  width: 30%;
+  margin-left: 525px;
   margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -161,3 +163,4 @@ body {
 a {
   color: #fff  
 }
+
